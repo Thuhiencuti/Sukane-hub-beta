@@ -71,8 +71,8 @@ closeButton.MouseButton1Click:Connect(function()
     gui:Destroy()
 end)
 
-local keyTextBox = Instance.new("TextBox")
-keyTextBox.Name = "KeyTextBox"
+local keyTextBox = Instance.new("thuhien")
+keyTextBox.Name = "Keythuhien"
 keyTextBox.Parent = frame
 keyTextBox.Size = UDim2.new(0.7, 0, 0, 30)
 keyTextBox.Position = UDim2.new(0.5, -keyTextBox.Size.X.Offset / 2, 0.95, -35)
@@ -133,8 +133,8 @@ loginButton.MouseButton1Click:Connect(function()
         gui:Destroy()
     else
         game.StarterGui:SetCore("SendNotification", {
-            Title = "thuhien Hub",
-            Text = "Chave inválida!",
+            Title = "thuhien hub",
+            Text = mã khoá không họp lệ!",
             Duration = 4
         })
     end
